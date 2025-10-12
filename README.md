@@ -2,7 +2,7 @@
 
 An advanced VSCode Copilot configuration optimized for high-performance development workflows. CoreCoder is a precision-driven, prompt-based terminal assistant designed to enhance VSCode Copilot's agent mode.
 
-What tool is this for?
+What tool are these prompts for?
 
 [Vscode Copilot](https://code.visualstudio.com/docs/copilot/setup)
 
