@@ -120,6 +120,13 @@ Make a python venv with "python -m venv venv" then activate it, then install the
 the venv is activated when installing packages
 ```
 
+### 11. Cleanup and Optimization
+```
+Start removing any BLOAT from the codebase and widdle this down to just wants important and start optimizing and
+making things better, faster, and more well orgnazied, i want less code, less code is more, because the less
+there is the faster you can check it all over
+```
+
 ---
 
 ## 🚀 Getting Started
