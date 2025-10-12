@@ -79,17 +79,9 @@ through any you haven't explored enough. We'll regroup and resolve the issue.
 
 ### 6. Project File Listing (PowerShell)
 ⚡⚡⚡⚡⚡
-```
 Use the following command to read the file names of the project via terminal:
-
-Get-ChildItem -Recurse -File -Exclude "*.pyc", "*.pyd", "*.zip", "*.exe", "*.whl" | 
-Where-Object { $_.Directory.Name -notlike "*__pycache__*" -and 
-$_.Directory.Name -notlike "*site-packages*" -and 
-$_.Directory.Name -notlike "*.egg-info*" -and 
-$_.Directory.Name -notlike "*.venv*" -and 
-$_.FullName -notlike "*\.venv\*" } | 
-Select-Object Name, @{Name="RelativePath"; Expression={$_.FullName.Replace("$PWD\", "")}} | 
-Sort-Object RelativePath
+```
+Get-ChildItem -Recurse -File | Where-Object { $_.FullName -notlike "*\.venv\*" -and $_.FullName -notlike "*__pycache__*" -and $_.Extension -ne ".pyc" } | Select-Object @{Name="RelativePath"; Expression={$_.FullName.Replace("$PWD\", "")}} | Sort-Object RelativePath | Select-Object -First 50
 ```
 ⚡⚡⚡⚡⚡
 
