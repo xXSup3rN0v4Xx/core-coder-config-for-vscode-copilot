@@ -2,6 +2,13 @@
 
 An advanced VSCode Copilot configuration optimized for high-performance development workflows. CoreCoder is a precision-driven, prompt-based terminal assistant designed to enhance VSCode Copilot's agent mode.
 
+What tool is this for?
+[Vscode Copilot](https://code.visualstudio.com/docs/copilot/setup)
+
+Advanced users may like to know that you can create you own vscode copilot extensions:
+[Vscode copilot extension docs](https://code.visualstudio.com/api/extension-guides/ai/chat-tutorial)
+[Tiago Pascoal's Wonderful Guide](https://pascoal.net/2024/10/31/gh-copilot-extensions-vscode-creating-extension/)
+[Nick Taylor's Wonderful Guide](https://dev.to/nickytonline/creating-your-first-github-copilot-extension-a-step-by-step-guide-28g0)
 ---
 
 ## 🧠 About CoreCoder
