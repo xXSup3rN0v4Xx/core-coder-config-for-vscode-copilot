@@ -109,7 +109,9 @@ and finalize the remaining documentation.
 ```
 You dont need to do it all in one shot, I will prompt you again, so just get started on the setup and
 when you are ready to take a break take one and then we will continue. If you get to a point and are
-unsure about what to do, just ask me some questions and I will tell you what I want you to do. 
+unsure about what to do, just ask me some questions and I will tell you what I want you to do. Feel Free
+to add #TODO statements while developing, we will come back and fix them later if you arent ready to build
+it yet for whatever reason.
 ```
 
 ---
