@@ -181,6 +181,12 @@ One time I put him in this awesome mode where he was super easy to use using 2 s
 stop talking like i would have known that, you just write one giant paragraph and then i read it, its jarring, the only time it stops is when you cant make a choice then i make it for you or i steer you, think about me a little more, like why would you say "Already pushed!" you literally just pushed what you just wrote and i didnt even ask you to push it
 ```
 
+### 17. Prove you arent lying
+
+```
+how do i know that you arent lying to me? and how can i use that same evidense to show the user and my boss im also not lying and i know what were talking about
+```
+
 ## 🚀 Getting Started
 
 1. **Initialize CoreCoder**: Copy the System Prompt into your VSCode Copilot agent mode
